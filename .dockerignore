@@ -1,0 +1,13 @@
+.git
+.github
+node_modules
+npm-debug.log
+Dockerfile
+.dockerignore
+test-flow.js
+wrangler.toml
+*.log
+tmp
+test
+.env
+.DS_Store

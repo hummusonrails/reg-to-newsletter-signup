@@ -1,16 +1,14 @@
 {
-  "name": "ghost-builder-sync",
+  "name": "newsletter-signup",
   "version": "1.0.0",
   "private": true,
   "type": "module",
+  "main": "server.js",
   "scripts": {
-    "dev": "wrangler dev",
-    "deploy": "wrangler deploy"
-  },
-  "devDependencies": {
-    "wrangler": "^4.51.0"
+    "start": "node server.js"
   },
   "dependencies": {
+    "express": "^4.22.1",
     "node-fetch": "^3.3.2"
   }
 }
